@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p{
+    font-size: 36px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343fce;
+    padding: 2px 13px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.menu li{
+    font-size: 16px;
+    padding: 9px 20px;
+}
+
+.menu li:hover {
+    background-color: #f8c25d;
+    border-radius: 4px;
+    
+}
+.menu li a:hover{
+    color: black;
+}
+
+.navbar_toggle{
+    display: none;
+    position: absolute; 
+    right: 32px;
+    font-size: 24px;
+    color: #f8c25d;
+}
+/* .logo {
+    font-size: 25px;
+    color: white;
+}
+.logo i {
+    color: #f8c25d;
+} */
+
+header>p {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 2px 13px;
+    color: #ffffff;
+}
+
+
+
+/* .container {
+    margin: auto;
+    width: 200px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    font-size: 50px;
+    color: #f8c25d;
+}
+
+.container i{
+    font-size: 5rem;
+}
+section {
+    width: 100%;
+    margin: 10px auto 40px;
+}
+
+/* sign in text */
+/* section p {
+    font-size: 36px;
+    margin-bottom: 11px;
+}
+
+section input[placeholder] {
+    font-size: 20px;
+    padding: 1rem;
+    width: 100%;
+    border: .5px solid #ddd;
+    outline: none;
+    transition: box-shadow .5s;
+}
+
+section input[placeholder]::placeholder{
+    font-size: .8rem;
+}
+
+section input:nth-of-type(1) {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+section input:nth-of-type(2) {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+section input[type="done"] {
+    display: block;
+    width: 100%;
+    border: 1px solid #f8c25d;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    background-color: #f8c25d;
+    color: black;
+    outline: none;
+    text-align: center;
+}
+
+section input[type="done"]:hover {
+    background-color: darkorange;
+    border: 1px solid darkorange;
+} */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+  }
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 9px 24px;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar_toggle{
+        display: block;
+    }
+}
